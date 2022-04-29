@@ -1,5 +1,6 @@
 import 'package:crime_reporter/screens/login.dart';
 import 'package:crime_reporter/screens/signup.dart';
+import 'package:crime_reporter/screens/welcomeScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class Myapp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       
-      home: SignUpPage(),
+      home:WelcomeScreen(),
       routes: {
         '/login':(context)=>LoginPage(),
         '/user/signup': (context)=>SignUpPage(),
